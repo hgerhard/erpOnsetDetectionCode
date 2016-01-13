@@ -1,5 +1,5 @@
 function [errVal] = jackKnifeErr(subsampleValues)
-% [errVal] = jackKnifeErr(subsampleValues,grandMean)
+% [errVal] = jackKnifeErr(subsampleValues)
 % 
 % calculate the jackknifed error value on a statistic, using its values 
 % calculated on all possible leave-one-out subsets, which should be supplied
